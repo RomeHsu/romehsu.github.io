@@ -1,0 +1,265 @@
+
+	body {
+		background-color: black;
+		font-family: Arial, "標楷體", sans-serif; 
+	}
+	
+	.Container{
+
+		
+	}
+		
+	.clearfix{
+		clear: both;
+	}
+	
+	.gap{
+		height: 45px;
+		margin: 0;
+		clear: both;
+	}
+	
+	.navigation{
+		position: fixed;
+		height: 55px; 
+		width: 98%;
+		background-color: gray;
+		color: white;
+		margin-top: -5px;
+		text-shadow: 1px 1px black;
+	
+	}
+
+	nav ul{
+		list-style-type: none;	
+		margin: auto;
+	}
+	
+	nav ul li a{
+		width: 16%;
+		font-size: 130%;
+		text-align: center;
+		text-decoration: none;
+		float: left;
+		padding: 15px 10px;
+		margin: auto; 
+		color: white;
+	}
+	
+	nav ul li a:visited{
+		color: white;
+	}
+
+	
+	.personal_info{
+		height: 500px;
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+		
+		
+		background-position: center;
+		background-image: url("./note_1.jpg");
+		background-repeat: no-repeat;
+
+	}
+	
+	
+	.personal_info table{
+		width: 525px;
+		font-size: 120%;
+	}
+	.personal_info table th{
+		height: 85px;
+	}
+		
+	.personal_info table tr td {
+		height: 15%;
+
+		color: blue;
+	}
+	
+	.personal_info table tr td.pic{
+		height: 75%;
+		width: 52%;
+		
+	}
+	
+	.personal_info table tr td.title{
+		font-size: 140%;
+		font-weight: bold;
+		text-align: center;
+		color: black;
+		width: 100px;
+	}
+	
+	.personal_info table tr td img{
+		height: 28%;
+		width: 93%;
+		border-radius: 20%;
+		margin-left: 4%;
+	}
+
+		
+	div.experience{
+		
+		width: 90%;
+		color: white;
+		margin: 0 auto;
+	}
+		
+	.subtitle{
+		color: cyan;
+		text-align: center;
+	}
+	
+	div.experience h3{
+		color: red;
+	}
+	
+	div.exp_edu{
+		margin: 0 auto;
+	}
+	
+	table.exp_table td{
+		width: 48%;
+		text-align: center;
+	}
+	
+	
+	div.left_side{
+		float: left;
+	}
+	div.right_side{
+		float: right;
+	}
+	
+	img.project_image {
+		height: 100%;
+		width: 48%;
+		float: right;
+		margin: 5px 0;
+	}
+	p{
+		text-indent: 40px;
+	}
+	
+	div.project_intro{
+		font-size: 110%;
+		width: 48%;
+		float: right;
+	}
+	
+	
+	div.project_intro ol{
+		font-size: 120%;
+		list-style: upper-roman;
+
+	}
+	
+	img.sms_img{
+		height: 350px;
+		width: 300px;
+		float: left;
+		
+	}
+	
+	div.sms_intro{
+		font-size: 120%;
+		width: 48%;
+		float: left;
+	}
+	
+	div.biology{
+		width: 90%;
+		margin: 0 auto;
+	}
+	
+	div.bio_intro{
+		height: 20%;
+		
+
+		font-size: 120%;
+		background-color: #555;
+		border-radius: 5%;
+
+	}
+	
+	
+	div.expect {
+		height: 500px;
+		width: 90%;
+		font-size: 120%;
+		margin: 0 auto;
+	}
+	div.expect_job{
+		float: left;
+	
+	}
+	
+	div.fee{
+		width: 30%;
+		float: left;
+		margin: 10px auto;
+	}
+	
+	div.bee{
+		width: 30%;
+		float: left;
+		margin: 10px auto;
+	}
+	div.mobile_app{
+		width: 30%;
+		float: left;
+		margin: 10px auto;
+	}
+
+	
+	
+	.contact_me{
+		height: 500px;
+		width: 770px;
+		margin-left: auto;
+		margin-right: auto;
+		
+		background-position: center;
+		background-image: url("./note_1.jpg");
+		background-repeat: no-repeat;
+
+	}
+
+	.contact_me table {
+		height: 200px;
+		width: 263px;
+		position: relative;
+		margin-right: 100px;
+	}
+	
+	
+	h3.contact_me_h3{
+		color: black;
+	}	
+
+	.contact_me table th{
+		height: 85px;
+	}
+		
+	.contact_me table tr td {
+		color: blue;
+	}
+	
+	.contact_me table tr td.title{
+		font-size: 120%;
+		font-weight: bold;
+		text-align: center;
+		color: black;
+		width: 100px;
+	}
+
+	div.footer{
+		height: 700px;
+	}
+
+
+
+
